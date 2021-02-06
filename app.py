@@ -7,7 +7,7 @@ def index():
     return render_template("index.html")
 
 @app.route('/client/')
-def index():
+def client():
     return render_template("client.html")
 
 if __name__ == '__main__':
